@@ -400,7 +400,7 @@ const books = [
     ranking: 5,
   },
 ];
-import BookCard from "../components/BookCard";
+import BookCard from "../../components/BookCard";
 
 const BooksCatalog = () => {
   return (

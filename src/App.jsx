@@ -2,8 +2,8 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { Routes, Route } from "react-router";
-import BooksCatalog from "./pages/BooksCatalog";
-import BooksDetail from "./pages/BooksDetail";
+import BooksCatalog from "./pages/Books/BooksCatalog";
+import BooksDetail from "./pages/Books/BooksDetail";
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
